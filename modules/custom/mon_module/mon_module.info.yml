@@ -1,0 +1,13 @@
+name: Mon module
+description: 'cours de création de module'
+package: Mes modules
+core: 8.x
+version: '8.9.3'
+
+type: module
+hidden: false
+
+dependencies:
+  - devel
+  - devel_generate
+

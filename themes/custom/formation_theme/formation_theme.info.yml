@@ -1,0 +1,19 @@
+name: Formation Theme
+description: Mon thème de formation Drupal
+type: theme
+core: 8.x
+# base theme: bartik
+
+regions: 
+  content: "Région de contenu"
+  sidebar: "Barre de droite"
+  primary_menu: "Menu principal"
+  header: "En tête"
+  footer: "Pied de page"
+
+libraries: 
+  - formation_theme/global-css
+  - formation_theme/global-js
+
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css

@@ -1,0 +1,23 @@
+mon_module.linkhello:
+  title: Link Hello
+  description: 'Ceci est une description du lien Link Hello'
+  parent: system.admin_structure
+  route_name: mon_module.description
+
+mon_module.contact:
+  title: Link Contact
+  description: 'Ceci est une description du lien Contact'
+  parent: system.admin_structure
+  route_name: mon_module.contact_form
+
+mon_module.requests:
+  title: Link Requests
+  description: 'Ceci est une description du lien Requests'
+  parent: system.admin_structure
+  route_name: mon_module.requests
+
+mon_module.configuration:
+  title: Link Configuration
+  description: 'Ceci est une description du lien de Configuration'
+  parent: system.admin_structure
+  route_name: mon_module.configuration

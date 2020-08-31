@@ -1,0 +1,31 @@
+mon_module.description:  
+  path: '/mon-module/hello-world'
+  defaults:
+    _controller: '\Drupal\mon_module\Controller\MonmoduleController::description'
+    _title: 'Hello world title'
+  requirements:
+    _permission: 'access content'
+
+mon_module.contact_form:
+  path: '/mon_module/contact'
+  defaults:
+    _form: '\Drupal\mon_module\Form\ContactForm'
+    _title: 'Formulaire de contact'
+  requirements:
+    _permission: 'access content'
+
+mon_module.requests:
+  path: '/mon_module/requests'
+  defaults:
+    _controller: 'Drupal\mon_module\Controller\MonmoduleController::requests'
+    _title: 'Requests'
+  requirements:
+    _permission: 'access content'
+
+mon_module.configuration:
+  path: '/admin/mon_module/config'
+  defaults:
+    _form: 'Drupal\mon_module\Form\MonmoduleConfigForm'
+    _title: 'Configuration personnalisée'
+  requirements:
+    _permission: 'access administration pages'

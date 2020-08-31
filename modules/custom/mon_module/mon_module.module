@@ -1,0 +1,8 @@
+<?php 
+
+use Drupal\Core\Entity\EntityInterface;
+
+function mon_module_node_presave(EntityInterface $node) {
+    dsm('Save Ok');
+    // $node->title->value .= '!';
+}

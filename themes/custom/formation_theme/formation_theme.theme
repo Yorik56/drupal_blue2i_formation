@@ -1,0 +1,8 @@
+<?php
+
+function formation_theme_preprocess_node(&$variables){
+    // if($variables['node']->nid->value == 4){
+    // }
+    $variables['#attached']['library'][] = 'formation_theme/node-css';
+    
+}
